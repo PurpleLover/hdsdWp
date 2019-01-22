@@ -12,7 +12,9 @@ Sau khi xem xét kĩ lưỡng các nội dung để hướng dẫn, chúng tôi 
 
 ## Giới thiệu chung
 ### Thanh công cụ
-![thanh công cụ](/Users/vietanhnguyen/Desktop/GUIDE NOTES/hdsdWp/assets/tool_sets.png)
+
+![thanh công cụ](https://github.com/PurpleLover/hdsdWp/blob/master/assets/tool_sets.png)
+
 Vị trí ở phía bên tay trái màn hình, bao gồm một sổ dọc dài, có các phân vùng cơ bản:
 * Posts: viết bài tại đây
 * Media: các phương tiện sẽ lưu tại đây (bao gồm hình ảnh, video, âm thanh)
@@ -44,17 +46,23 @@ Bao gồm hai kiểu
 Wordpress hỗ trợ đa ngôn ngữ thông qua plugin của Polang, sẽ được cài đặt sẵn khi triển khai trên hosting thuê ngoài. Lưu ý, Polang chỉ hỗ trợ biên dịch vài đoạn, các nội dung còn lại trên trang cần phải được biên dịch (bằng tay) ra ngôn ngữ khác nếu muốn sử dụng đa ngôn ngữ.
 
 Để thêm phiên bản song ngữ cho một trang, tích vào dấu + như hình,
-![thêm bản song ngữ](/Users/vietanhnguyen/Desktop/GUIDE NOTES/hdsdWp/assets/translate_1.png)
+
+![thêm bản song ngữ](https://github.com/PurpleLover/hdsdWp/blob/master/assets/translate_1.png)
+
 rồi nhập tiêu đề và chọn Publish
 
 ## Đăng nhập và phân quyền
 ### Đăng nhập
 Thêm `/wp-admin` vào thanh địa chỉ để vào trang đăng nhập. Tên tài khoản và mật khẩu sẽ được gửi qua kênh khác vì lý do bảo mật.
-![trang đăng nhập](/Users/vietanhnguyen/Desktop/GUIDE NOTES/hdsdWp/assets/login_screen.png)
+
+![trang đăng nhập](https://github.com/PurpleLover/hdsdWp/blob/master/assets/login_screen.png)
+
 **Lưu ý**: thay đổi mật khẩu sau khi triển khai trên hosting.
 ### Phân quyền
 Sau khi đăng nhập thành công vào tài khoản quản trị viên (`admin`), vào phân vùng Users trên thanh công cụ bên tay trái, chọn:
-![phân quyền](/Users/vietanhnguyen/Desktop/GUIDE NOTES/hdsdWp/assets/user_section.png)
+
+![phân quyền](https://github.com/PurpleLover/hdsdWp/blob/master/assets/user_section.png)
+
 * `All Users` để xem các tài khoản
 * `Add New` để thêm mới tài khoản
 * `Your Profile` để chỉnh sửa lại thông tin tài khoản (và đổi mật khẩu)
@@ -144,6 +152,6 @@ Sau khi đăng nhập thành công vào tài khoản quản trị viên (`admin`
 ## Sử dụng các công cụ
 ### Menu
 Để tạo mới một menu, chọn Menus trong Appearance, chọn create a new menu, đặt tên cho Menu và thêm các đầu mục như hình:
-![menu_custom](/Users/vietanhnguyen/Desktop/GUIDE NOTES/hdsdWp/assets/menu_trans_1.png)
+![menu_custom](https://github.com/PurpleLover/hdsdWp/blob/master/assets/menu_trans_1.png)
 * URL là đường link dẫn tới trang cần hiển thị, hiện tại đang sử dụng localhost
 * Link Text là tên đầu mục sẽ hiển thị lên trên menu
