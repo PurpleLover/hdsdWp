@@ -25,6 +25,7 @@ Vị trí ở phía bên tay trái màn hình, bao gồm một sổ dọc dài, 
 * Users: kiểm soát người dùng và phân quyền
 * Tools: các công cụ để export/import dữ liệu (dùng cho việc backup dữ liệu định kỳ)
 * Settings: các cài đặt chung được cấu hình trong này
+
 Ngoài những phân vùng kể trên, với mỗi plugin sau khi được cài đặt sẽ (có thể có) thêm các phân vùng tương ứng với plugin sử dụng, trong dự án này dùng thêm các Plugin sau:
 * Elementor: dùng để chỉnh sửa giao diện
 * Statistics: dùng để thống kê
