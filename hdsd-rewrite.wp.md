@@ -26,6 +26,7 @@ Wordpress là công cụ xây dựng website quảng bá một cách dễ dàng 
 Trước hết là giao diện, giao diện bao gồm hai loại:
 * Giao diện đứng: chỉ có các Page
 * Giao diện ngang: có cả Page và Post
+[Cách chuyển giao diện](#Cách-chuyển-giao-diện)
 
 Tiếp theo là tính năng song ngữ trên trang Web: phải tạo hai trang Anh-Việt (đối với Page và Post) nếu muốn hiển thị song ngữ.
 
@@ -175,6 +176,100 @@ Với các `Role` như sau:
 * `Permalinks`: quản lý cách hiển thị đường dẫn
 
 ![settings_permalink](https://github.com/PurpleLover/hdsdWp/blob/master/images/_standard/settings_permalink.png)
+
+#### Cách chuyển giao diện
+##### Giao diện dọc
+Trên thanh công cụ, chọn `Appearance`, chọn kích hoạt (`Activate`) theme `GeneratePress`. Sau đó chọn mục `Customize` trong `Appearance`. Màn hình sẽ hiển thị như sau:
+
+![customizer_main](https://github.com/PurpleLover/hdsdWp/blob/master/images/_standard/customizer_main.png)
+
+Chọn `Homepage Settings`
+* ở mục `Your homepage displays` chọn `A static page` 
+* ở dưới trong mục `Homepage`, chuyển sang `[VerticalLayout] Home`
+
+![customizer_homepagesettings](https://github.com/PurpleLover/hdsdWp/blob/master/images/_standard/customizer_homepagesettings.png)
+
+Sau khi xong xuôi, quay lại màn hình Customizer và chọn `Additional CSS` và copy đoạn mã nguồn sau vào rồi chọn `Publish` (nếu chưa có mã nguồn nào).
+
+```
+@media (min-width: 769px) {
+  .site-header {
+    display: none;
+  }
+
+  .gen-sidebar-nav {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: top center;
+    border-style: hidden;
+    border-top-width: 20px;
+    border-top-style: solid;
+    border-top-color: white;
+	}
+	.site-footer {
+		display: none;
+	}
+	#page {
+		height: 100vh;
+		width: 100%;
+	}
+	.site-main{
+		margin-left:0px !important;
+	}
+	.tablet-push-25{
+		left: 20% !important;
+	}
+	.tablet-grid-75, grid-75 {
+		width: 80% !important;
+	}
+	.site-logo {
+		max-width: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10%;
+	}
+	
+	.main-title, .main-title a {
+		font-size: 1.2rem;
+		color: black!important;
+		text-align: center;
+		margin-bottom: 40%;
+	}
+	.main-title a:hover {
+		color: #e96656 !important;
+	}
+	
+	.eael-img-accordion {
+		height: 100vh !important;
+	}
+	.menu-item {
+		border-bottom: 1px solid black;
+	}
+	.menu-item:first-child {
+		border-top: 1px solid black;
+	}
+	.menu-item a:hover {
+		color: #e96656 !important;
+	}
+}
+.site-info {
+	display: none;
+}
+```
+
+Sau đó sẽ có dạng thế này.
+
+![customizer_additionalCss](https://github.com/PurpleLover/hdsdWp/blob/master/images/_standard/customizer_additionalCss.png)
+
+##### Giao diện ngang
+Làm tương tự như trên nhưng chỉ chỉnh Homepage về `Trang chủ`
 
 ### HDSD Plugin
 (Sẽ hướng dẫn trực tiếp vì quá phức tạp)
