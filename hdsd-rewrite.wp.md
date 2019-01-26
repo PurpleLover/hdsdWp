@@ -27,6 +27,8 @@ Trước hết là giao diện, giao diện bao gồm hai loại:
 * Giao diện đứng: chỉ có các Page
 * Giao diện ngang: có cả Page và Post
 
+Tiếp theo là tính năng song ngữ trên trang Web: phải tạo hai trang Anh-Việt (đối với Page và Post) nếu muốn hiển thị song ngữ.
+
 Vào thời điểm viết bài hướng dẫn sử dụng này, chúng tôi chưa có Hosting để đăng lên nên mọi đường dẫn mà chúng tôi cung cấp đều chạy trên `localhost:8080`, tức là máy tính của chúng tôi. Đến khi có Hosting, chúng tôi sẽ chỉnh sửa lại nội dung bài viết.
 
 ## Điều kiện tiên quyết
@@ -36,20 +38,28 @@ Vào thời điểm viết bài hướng dẫn sử dụng này, chúng tôi ch�
 ## Đăng nhập
 Vào [địa chỉ này](http://localhost:8080/wordpress/) để tới trang chủ của website.
 
-![home_screen]()
+![home_screen](https://github.com/PurpleLover/hdsdWp/blob/master/images/login/home_screen.png)
 
 Thêm `wp-admin` vào cuối trên thanh địa chỉ (có dạng `http://localhost:8080/wordpress/wp-admin`) để vào trang đăng nhập.
 
-![login_screen]()
+![login_screen](https://github.com/PurpleLover/hdsdWp/blob/master/images/login/login_screen.png)
 
 Sau khi đăng nhập màn hình hiện ra sẽ có dạng như sau:
 
-![dashboard_screen]()
+![dashboard_screen](https://github.com/PurpleLover/hdsdWp/blob/master/images/login/dashboard_screen.png)
 
 ### HDSD cơ bản
 #### Posts
+
+
+#### Media
 #### Pages
-#### 
+#### Comment
+#### Appearance
+#### Plugin
+#### Users
+#### Tools
+#### Settings
 
 ### HDSD Plugin
 
