@@ -46,13 +46,13 @@ Thêm `wp-admin` vào cuối trên thanh địa chỉ (có dạng `http://localh
 
 Sau khi đăng nhập màn hình hiện ra sẽ có dạng như sau, với thanh công cụ nằm ở phía bên tay trái.
 
-![dashboard_screen](https://github.com/PurpleLover/hdsdWp/blob/master/images/login/dashboard_screen.png)
+![dashboard_screen](https://github.com/PurpleLover/hdsdWp/blob/master/images/login/dashboard_screen.jpg)
 
 ### HDSD cơ bản
 #### Posts
 Trên thanh công cụ, chọn mục `Posts`, màn hình mới hiện ra có dạng như sau:
 
-![posts_main](https://github.com/PurpleLover/hdsdWp/blob/master/images/_standard/posts_main.png)
+![posts_main](https://github.com/PurpleLover/hdsdWp/blob/master/images/_standard/posts_main.jpg)
 
 Chọn nút `Add New` để thêm mới bài viết.
 
