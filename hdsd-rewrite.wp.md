@@ -272,10 +272,10 @@ Sau đó sẽ có dạng thế này.
 Làm tương tự như trên nhưng chỉ chỉnh Homepage về `Trang chủ`
 
 ### HDSD Plugin
-(Sẽ hướng dẫn trực tiếp vì quá phức tạp)
+* [Hướng dẫn sử dụng các addon của Elementor](https://docs.elementor.com/) - do chính Elementor viết.
 
 ## Cài đặt trên Hosting
-(Sẽ bổ sung sau)
+* [Chuyển host thủ công lên hosting](https://thachpham.com/wordpress/wordpress-tutorials/localhost-len-host-thu-cong.html#ftoc-heading-1)
 
 ## Tham khảo
 (Sẽ bổ sung sau)
