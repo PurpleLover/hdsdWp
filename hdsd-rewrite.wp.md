@@ -37,11 +37,11 @@ Vào thời điểm viết bài hướng dẫn sử dụng này, chúng tôi ch�
 2. Biết cách sử dụng máy vi tính và trình duyệt web
 
 ## Đăng nhập
-Vào [địa chỉ này](http://localhost:8080/wordpress/) để tới trang chủ của website.
+Truy cập vào [<tên-miền-của-bạn>](http://localhost:8080/wordpress/) để tới trang chủ của website. Chẳng hạn tên miền của bạn là `tenmien.com`
 
 ![home_screen](https://github.com/PurpleLover/hdsdWp/blob/master/images/login/home_screen.png)
 
-Thêm `wp-admin` vào cuối trên thanh địa chỉ (có dạng `http://localhost:8080/wordpress/wp-admin`) để vào trang đăng nhập.
+Thêm `wp-admin` vào cuối trên thanh địa chỉ (có dạng `tenmien.com/wp-admin` hoặc là `http://localhost:8080/wordpress/wp-admin` nếu test trên máy chủ tĩnh) để vào trang đăng nhập.
 
 ![login_screen](https://github.com/PurpleLover/hdsdWp/blob/master/images/login/login_screen.png)
 
