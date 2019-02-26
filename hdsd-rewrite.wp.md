@@ -160,7 +160,7 @@ Với các `Role` như sau:
 
 **Lưu ý**: Nên export ít nhất 1 tuần 1 lần.
 
-Để import, chỉ cần chọn `Import` và chọn phần của `Wordpress`.
+Để import, ~~chỉ cần chọn `Import` và chọn phần của `Wordpress`.~~ nếu sử dụng hosting, hãy sử dụng chức năng backup của mà bên cung cấp dịch vụ cho phép.
 
 #### Settings
 Đây là tính năng quản lý những hiển thị chung trên trang.
@@ -277,5 +277,7 @@ Làm tương tự như trên nhưng chỉ chỉnh Homepage về `Trang chủ`
 ## Cài đặt trên Hosting
 * [Chuyển host thủ công lên hosting](https://thachpham.com/wordpress/wordpress-tutorials/localhost-len-host-thu-cong.html#ftoc-heading-1)
 
+**Lưu ý**: Mỗi đơn vị cung cấp dịch vụ hosting có cách thiết lập hosting và domain khác nhau, nếu không thành công, hãy theo dõi hướng dẫn mà đơn vị đó cung cấp hoặc liên hệ với đơn vị để được giải đáp.
+
 ## Tham khảo
-(Sẽ bổ sung sau)
+* [Background Slider for Header](https://smartslider3.com/blog/oceanwp-slider/): Kết hợp Smart Slider 3 và OceanWP Theme để tạo ra Background Slider trên phần Header, khỏi phải mua bản Pro của Elementor
